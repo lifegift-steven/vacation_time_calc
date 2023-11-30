@@ -1,0 +1,89 @@
+/* Your CSS styles for a modern UI */
+/* Modify styles to match your design preferences */
+
+body {
+    font-family: Arial, sans-serif; /* Use Arial font for the body text */
+    text-align: center; /* Center align all text */
+    background-color: rgb(236, 236, 236)
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 35%;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 84vh
+}
+
+.calculateButton {
+    width: 10px;
+}
+
+input[type="number"],
+input[type="date"] {
+    width: 100px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 10px;
+    margin: 4px;
+    font-family: Arial, sans-serif; /* Use Arial font for input elements */
+}
+
+
+button {
+    width: 100px;
+    padding: 8px 12px;
+    border: none;
+    background-color: #001E60;
+    color: #ffffff;
+    border-radius: 10px;
+    margin: 4px;
+    font-family: Arial, sans-serif; /* Use Arial font for input elements */
+}
+
+button:hover {
+    width: 100px;
+    padding: 8px 12px;
+    border: none;
+    background-color: #39589b;
+    color: #ffffff;
+    border-radius: 10px;
+    margin: 4px;
+    font-family: Arial, sans-serif; /* Use Arial font for input elements */
+    cursor: pointer;
+}
+
+
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 50vh; /* Set maximum height */
+    max-width: 50vw; /* Set maximum width */
+    overflow: auto; /* Enable scrolling if content exceeds popup dimensions */
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    text-align: center; /* Center align text within the pop-up */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.popup p {
+    margin-bottom: 10px;
+}
+
+#resultUrl {
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+}

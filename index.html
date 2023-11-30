@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vacation Calculation</title>
+    <link rel="stylesheet" href="sheet.css">
+</head>
+<body>
+    <div class="container">
+        <img src="images/lg_logo.png" class="logo" alt="lg_logo"></img>
+        <br>
+
+        <label for="hireDate">Hire Date:</label>
+        <input type="date" id="hireDate" required>
+        <br>
+        <label for="availTime">Available Time in Novatime:</label>
+        <input type="number" id="availTime" step="0.1" required>
+        <br><br>
+        <button id="calculateButton">Calculate</button>
+    </div>
+
+    <div id="resultPopup" class="popup">
+        <!-- Display result here with small URL -->
+        <p>You need to take vacation on or before the Pay Date of this week or you will stop accruing vacation time.</p>
+        <p>Est. Date to Hit Max: <a id="resultUrl" href="#" target="_blank">Your Small URL Here</a></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
